@@ -26,26 +26,27 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Hero Section */}
+        {/* Hero Section - Updated */}
         <div className="mb-20">
           <div className="relative">
             {/* Accent Elements */}
             <div className="absolute -left-4 top-0 w-1 h-32 bg-gradient-to-b from-blue-500 to-green-500 rounded-full"></div>
 
             <div className="pl-4">
-              <p className="text-sm font-mono text-blue-600 mb-4 tracking-widest">SMART EMPATHY HOUSING</p>
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-black text-stone-900 mb-6 leading-tight tracking-tight">
-                AI가 연결하는<br/>
-                <span className="bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent">따뜻한 이웃</span>
+              <p className="text-sm font-mono text-blue-600 mb-4 tracking-widest">HOUSING ASSET PLATFORM</p>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-stone-900 mb-6 leading-tight tracking-tight">
+                살면서<br/>
+                <span className="bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent">내 집 되는</span><br/>
+                공공주택
               </h1>
               <p className="text-xl md:text-2xl text-stone-600 font-medium leading-relaxed max-w-2xl">
-                스마트 공감 주택 플랫폼으로<br/>
-                공공주택을 &apos;저렴한 집&apos;에서 &apos;살고 싶은 공동체&apos;로
+                AI 기반 주거자산형성 플랫폼으로<br/>
+                공공주택을 &apos;임시 거처&apos;에서 &apos;내 집 마련의 디딤돌&apos;로
               </p>
             </div>
           </div>
 
-          {/* Hero Cards */}
+          {/* Hero Cards - Updated */}
           <div className="grid md:grid-cols-2 gap-6 mt-12">
             <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-white/50 hover:shadow-2xl transition-shadow duration-300">
               <div className="flex items-center gap-4 mb-4">
@@ -53,31 +54,45 @@ export default function Home() {
                   🏠
                 </div>
                 <div>
-                  <p className="text-xs font-mono text-blue-600 tracking-widest">VISION</p>
-                  <h3 className="text-xl font-bold text-stone-900">공공주택의 재정의</h3>
+                  <p className="text-xs font-mono text-blue-600 tracking-widest">CORE CONCEPT</p>
+                  <h3 className="text-xl font-bold text-stone-900">주거자산계좌</h3>
                 </div>
               </div>
               <p className="text-stone-600 leading-relaxed">
-                AI·IoT 기술과 세대통합 커뮤니티를 결합하여<br/>
-                청년-신혼-고령층이 서로 돌보는 새로운 주거 생태계
+                에너지 절감분을 입주민 계좌에 적립<br/>
+                <strong className="text-blue-600">5년 거주 시 최대 180만원</strong> 자산 형성
               </p>
             </div>
 
             <div className="bg-gradient-to-br from-stone-900 to-stone-800 rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-shadow duration-300">
               <div className="flex items-center gap-4 mb-4">
                 <div className="w-12 h-12 bg-gradient-to-br from-green-400 to-green-500 rounded-xl flex items-center justify-center text-stone-900 text-2xl shadow-lg">
-                  🤖
+                  ⭐
                 </div>
                 <div>
-                  <p className="text-xs font-mono text-green-400 tracking-widest">PLATFORM</p>
-                  <h3 className="text-xl font-bold text-white">3대 혁신 시스템</h3>
+                  <p className="text-xs font-mono text-green-400 tracking-widest">INNOVATION</p>
+                  <h3 className="text-xl font-bold text-white">주거신용점수</h3>
                 </div>
               </div>
               <p className="text-stone-300 leading-relaxed">
-                AI 통합 관리 + 세대통합 커뮤니티 + 주민 참여 거버넌스로<br/>
-                지속가능한 공공주택 운영 모델 구축
+                커뮤니티 활동 → 점수화 → 분양전환 우선권<br/>
+                <strong className="text-green-400">공공주택이 내 집 마련의 시작점</strong>
               </p>
             </div>
+          </div>
+        </div>
+
+        {/* Key Message Banner */}
+        <div className="mb-20 bg-gradient-to-r from-blue-600 to-green-600 rounded-3xl p-8 md:p-12 text-white relative overflow-hidden">
+          <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full -mr-32 -mt-32"></div>
+          <div className="relative z-10 text-center">
+            <p className="text-blue-100 text-sm font-mono tracking-widest mb-4">SINGAPORE MODEL FOR KOREA</p>
+            <p className="text-2xl md:text-3xl font-black mb-4">
+              &quot;싱가포르는 공공주택으로 국민 80%가 자가를 보유합니다&quot;
+            </p>
+            <p className="text-xl text-blue-100">
+              대한민국도 할 수 있습니다.
+            </p>
           </div>
         </div>
 
@@ -106,13 +121,13 @@ export default function Home() {
               </div>
 
               <p className="text-stone-600 text-sm mb-6 leading-relaxed">
-                스마트 공감 주택 플랫폼의<br/>
+                주거자산형성 플랫폼의<br/>
                 핵심 개념과 실행 전략
               </p>
 
               <div className="flex flex-wrap gap-2">
-                <span className="bg-blue-100 text-blue-700 px-3 py-1 text-xs font-bold rounded-full">전체 내용</span>
-                <span className="bg-stone-100 text-stone-600 px-3 py-1 text-xs font-bold rounded-full">7 섹션</span>
+                <span className="bg-blue-100 text-blue-700 px-3 py-1 text-xs font-bold rounded-full">5매 요약</span>
+                <span className="bg-stone-100 text-stone-600 px-3 py-1 text-xs font-bold rounded-full">대상 수상용</span>
               </div>
             </div>
           </Link>
@@ -140,7 +155,7 @@ export default function Home() {
               </div>
 
               <p className="text-green-100 text-sm mb-6 leading-relaxed">
-                인터랙티브 차트와<br/>
+                ROI 분석, 자산적립 시뮬레이션<br/>
                 핵심 데이터 시각화
               </p>
 
@@ -174,56 +189,56 @@ export default function Home() {
               </div>
 
               <p className="text-purple-100 text-sm mb-6 leading-relaxed">
-                해외 사례 및 국내 현황<br/>
-                심층 분석 인사이트
+                싱가포르 HDB, 네덜란드 사례<br/>
+                정책 근거 분석
               </p>
 
               <div className="flex flex-wrap gap-2">
-                <span className="bg-white/20 text-white px-3 py-1 text-xs font-bold rounded-full">사례 분석</span>
-                <span className="bg-white/10 text-purple-100 px-3 py-1 text-xs font-bold rounded-full">데이터</span>
+                <span className="bg-white/20 text-white px-3 py-1 text-xs font-bold rounded-full">해외 사례</span>
+                <span className="bg-white/10 text-purple-100 px-3 py-1 text-xs font-bold rounded-full">법적 근거</span>
               </div>
             </div>
           </Link>
         </div>
 
-        {/* Problem & Solution Overview */}
+        {/* Problem Section - Updated */}
         <div className="mb-20">
           <div className="text-center mb-12">
-            <p className="text-sm font-mono text-stone-500 tracking-widest mb-3">WHY WE NEED CHANGE</p>
-            <h2 className="text-3xl md:text-4xl font-black text-stone-900">공공주택, 무엇이 문제인가?</h2>
+            <p className="text-sm font-mono text-stone-500 tracking-widest mb-3">CRITICAL PROBLEMS</p>
+            <h2 className="text-3xl md:text-4xl font-black text-stone-900">왜 공공주택에서 자산이 안 모이나?</h2>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6 mb-12">
             <div className="bg-red-50 rounded-2xl p-6 border border-red-100">
               <div className="w-12 h-12 bg-red-100 rounded-xl flex items-center justify-center text-2xl mb-4">
-                😔
+                🚫
               </div>
-              <h3 className="text-lg font-bold text-red-900 mb-2">기술 격차</h3>
+              <h3 className="text-lg font-bold text-red-900 mb-2">자산 형성 불가</h3>
               <p className="text-red-700 text-sm leading-relaxed">
-                스마트홈 적용률 <span className="font-bold">0.16%</span><br/>
-                (174만호 중 2,759호만 적용)
+                10년 거주해도 <span className="font-bold">자산 0원</span><br/>
+                분양전환은 &quot;운&quot;에 의존
               </p>
             </div>
 
             <div className="bg-orange-50 rounded-2xl p-6 border border-orange-100">
               <div className="w-12 h-12 bg-orange-100 rounded-xl flex items-center justify-center text-2xl mb-4">
-                😢
+                💸
               </div>
-              <h3 className="text-lg font-bold text-orange-900 mb-2">사회적 고립</h3>
+              <h3 className="text-lg font-bold text-orange-900 mb-2">LH 부채 위기</h3>
               <p className="text-orange-700 text-sm leading-relaxed">
-                연간 고독사 <span className="font-bold">500건+</span><br/>
-                발견까지 평균 4.5일
+                부채 <span className="font-bold">160.1조원</span><br/>
+                스마트홈 적용률 0.16%
               </p>
             </div>
 
             <div className="bg-yellow-50 rounded-2xl p-6 border border-yellow-100">
               <div className="w-12 h-12 bg-yellow-100 rounded-xl flex items-center justify-center text-2xl mb-4">
-                💸
+                😢
               </div>
-              <h3 className="text-lg font-bold text-yellow-900 mb-2">재정 위기</h3>
+              <h3 className="text-lg font-bold text-yellow-900 mb-2">사회적 낙인</h3>
               <p className="text-yellow-700 text-sm leading-relaxed">
-                LH 부채 <span className="font-bold">160.1조원</span><br/>
-                부채비율 222%
+                &quot;공공주택 = 막다른 골목&quot;<br/>
+                주거사다리 단절
               </p>
             </div>
           </div>
@@ -231,78 +246,78 @@ export default function Home() {
           {/* Solution Arrow */}
           <div className="flex justify-center mb-12">
             <div className="bg-gradient-to-r from-blue-500 to-green-500 text-white px-8 py-4 rounded-full font-bold text-lg shadow-lg">
-              ↓ 스마트 공감 주택으로 해결 ↓
+              ↓ 주거자산형성 플랫폼으로 해결 ↓
             </div>
           </div>
 
-          {/* 3 Systems */}
+          {/* 3 Systems - Updated */}
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-white rounded-2xl p-6 shadow-lg border border-stone-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
               <div className="w-14 h-14 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center text-2xl text-white mb-4 shadow-lg">
                 🤖
               </div>
-              <h3 className="text-xl font-bold text-stone-900 mb-3">AI 통합 관리</h3>
+              <h3 className="text-xl font-bold text-stone-900 mb-3">AI 스마트 관리</h3>
               <ul className="space-y-2 text-sm text-stone-600">
                 <li className="flex items-center gap-2">
                   <span className="w-1.5 h-1.5 bg-blue-500 rounded-full"></span>
-                  스마트 에너지 관리 (30% 절감)
+                  민간 PPA로 LH 부담 Zero
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="w-1.5 h-1.5 bg-blue-500 rounded-full"></span>
-                  예측 유지보수 시스템
+                  에너지 30% 절감
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="w-1.5 h-1.5 bg-blue-500 rounded-full"></span>
-                  고독사 예방 모니터링
+                  절감분 → 입주민 계좌 적립
                 </li>
               </ul>
             </div>
 
             <div className="bg-white rounded-2xl p-6 shadow-lg border border-stone-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
               <div className="w-14 h-14 bg-gradient-to-br from-green-500 to-green-600 rounded-xl flex items-center justify-center text-2xl text-white mb-4 shadow-lg">
-                🤝
+                💰
               </div>
-              <h3 className="text-xl font-bold text-stone-900 mb-3">세대통합 커뮤니티</h3>
+              <h3 className="text-xl font-bold text-stone-900 mb-3">주거자산계좌</h3>
               <ul className="space-y-2 text-sm text-stone-600">
                 <li className="flex items-center gap-2">
                   <span className="w-1.5 h-1.5 bg-green-500 rounded-full"></span>
-                  AI 이웃 매칭 시스템
+                  연 18만원 자동 적립
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="w-1.5 h-1.5 bg-green-500 rounded-full"></span>
-                  돌봄 시간은행
+                  5년 = 90만원 + 보너스
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="w-1.5 h-1.5 bg-green-500 rounded-full"></span>
-                  세대공유 공간 운영
+                  분양전환 재원으로 활용
                 </li>
               </ul>
             </div>
 
             <div className="bg-white rounded-2xl p-6 shadow-lg border border-stone-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
               <div className="w-14 h-14 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center text-2xl text-white mb-4 shadow-lg">
-                🗳️
+                ⭐
               </div>
-              <h3 className="text-xl font-bold text-stone-900 mb-3">주민 참여 거버넌스</h3>
+              <h3 className="text-xl font-bold text-stone-900 mb-3">주거신용점수</h3>
               <ul className="space-y-2 text-sm text-stone-600">
                 <li className="flex items-center gap-2">
                   <span className="w-1.5 h-1.5 bg-purple-500 rounded-full"></span>
-                  디지털 투표 시스템
+                  커뮤니티 활동 → 점수화
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="w-1.5 h-1.5 bg-purple-500 rounded-full"></span>
-                  커뮤니티 펀드 운영
+                  500점+ 분양전환 우선권
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="w-1.5 h-1.5 bg-purple-500 rounded-full"></span>
-                  단지 내 일자리 연계
+                  추가 보너스 적립
                 </li>
               </ul>
             </div>
           </div>
         </div>
 
-        {/* Expected Results */}
+        {/* Expected Results - Updated */}
         <div className="bg-gradient-to-br from-stone-900 via-stone-800 to-stone-900 rounded-3xl p-10 md:p-14 mb-20 relative overflow-hidden">
           <div className="absolute inset-0 opacity-10">
             <div className="absolute inset-0" style={{
@@ -314,66 +329,56 @@ export default function Home() {
 
           <div className="relative z-10">
             <div className="mb-10">
-              <p className="text-sm font-mono text-green-400 tracking-widest mb-3">EXPECTED RESULTS</p>
+              <p className="text-sm font-mono text-green-400 tracking-widest mb-3">WIN-WIN-WIN EFFECTS</p>
               <h2 className="text-3xl md:text-4xl font-black text-white">기대 효과</h2>
             </div>
 
-            <div className="grid md:grid-cols-4 gap-8">
-              <div className="text-center">
-                <div className="text-5xl md:text-6xl font-black text-white mb-2">
-                  30<span className="text-2xl text-blue-400">%</span>
-                </div>
-                <div className="h-1 w-16 bg-blue-400 mx-auto mb-3 rounded-full"></div>
-                <p className="text-stone-300 font-medium">에너지 비용 절감</p>
+            <div className="grid md:grid-cols-3 gap-8 mb-10">
+              <div className="bg-white/10 rounded-2xl p-6">
+                <p className="text-blue-400 font-mono text-sm mb-2">FOR RESIDENTS</p>
+                <div className="text-4xl font-black text-white mb-2">180<span className="text-xl">만원</span></div>
+                <p className="text-stone-300">5년 거주 시 자산 적립</p>
               </div>
+              <div className="bg-white/10 rounded-2xl p-6">
+                <p className="text-green-400 font-mono text-sm mb-2">FOR LH</p>
+                <div className="text-4xl font-black text-white mb-2">550<span className="text-xl">억/년</span></div>
+                <p className="text-stone-300">연간 운영수익 (100만세대)</p>
+              </div>
+              <div className="bg-white/10 rounded-2xl p-6">
+                <p className="text-purple-400 font-mono text-sm mb-2">FOR SOCIETY</p>
+                <div className="text-4xl font-black text-white mb-2">50<span className="text-xl">%</span></div>
+                <p className="text-stone-300">고독사 감소율</p>
+              </div>
+            </div>
 
-              <div className="text-center">
-                <div className="text-5xl md:text-6xl font-black text-white mb-2">
-                  50<span className="text-2xl text-green-400">%</span>
-                </div>
-                <div className="h-1 w-16 bg-green-400 mx-auto mb-3 rounded-full"></div>
-                <p className="text-stone-300 font-medium">고독사 감소</p>
-              </div>
-
-              <div className="text-center">
-                <div className="text-5xl md:text-6xl font-black text-white mb-2">
-                  3,600<span className="text-2xl text-orange-400">억</span>
-                </div>
-                <div className="h-1 w-16 bg-orange-400 mx-auto mb-3 rounded-full"></div>
-                <p className="text-stone-300 font-medium">연간 절감 (100만 세대)</p>
-              </div>
-
-              <div className="text-center">
-                <div className="text-5xl md:text-6xl font-black text-white mb-2">
-                  10:1
-                </div>
-                <div className="h-1 w-16 bg-purple-400 mx-auto mb-3 rounded-full"></div>
-                <p className="text-stone-300 font-medium">입주 경쟁률 상승</p>
-              </div>
+            <div className="bg-white/5 rounded-xl p-6 text-center">
+              <p className="text-stone-400 text-sm mb-2">투자 대비 효과 (ROI)</p>
+              <p className="text-3xl font-black text-green-400">1,375%</p>
+              <p className="text-stone-400 text-sm mt-2">투자 40억원 → 연간 수익 550억원</p>
             </div>
           </div>
         </div>
 
-        {/* Comparison Table */}
+        {/* Comparison Table - Updated */}
         <div className="mb-20">
           <div className="text-center mb-10">
-            <p className="text-sm font-mono text-stone-500 tracking-widest mb-3">BEFORE & AFTER</p>
-            <h2 className="text-3xl md:text-4xl font-black text-stone-900">기존 vs 스마트 공감 주택</h2>
+            <p className="text-sm font-mono text-stone-500 tracking-widest mb-3">PARADIGM SHIFT</p>
+            <h2 className="text-3xl md:text-4xl font-black text-stone-900">기존 vs 주거자산형성 모델</h2>
           </div>
 
           <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-stone-100">
             <div className="grid grid-cols-3 bg-stone-100">
               <div className="p-4 font-bold text-stone-700 text-center">구분</div>
               <div className="p-4 font-bold text-stone-500 text-center bg-stone-200">기존 공공주택</div>
-              <div className="p-4 font-bold text-blue-700 text-center bg-blue-50">스마트 공감 주택</div>
+              <div className="p-4 font-bold text-blue-700 text-center bg-blue-50">제안 모델</div>
             </div>
 
             {[
-              { label: '핵심 가치', old: '저렴한 가격', new: '따뜻한 공동체' },
-              { label: '기술 수준', old: '기본 시설', new: 'AI 통합 플랫폼' },
-              { label: '커뮤니티', old: '단절/익명', new: '세대통합/매칭' },
-              { label: '관리 방식', old: '수동/민원', new: '자동/예측' },
-              { label: '에너지', old: '개별 부담', new: '공동 생산/절감' },
+              { label: '핵심 가치', old: '저렴한 임대', new: '자산 형성 지원' },
+              { label: '에너지 절감분', old: 'LH 귀속', new: '입주민 계좌 적립' },
+              { label: '커뮤니티 활동', old: '무보상', new: '주거신용점수 혜택' },
+              { label: '분양전환', old: '추첨 (운)', new: '기여도 반영 (노력)' },
+              { label: 'LH 역할', old: '공급자', new: '자산형성 파트너' },
             ].map((row, idx) => (
               <div key={idx} className={`grid grid-cols-3 ${idx % 2 === 0 ? 'bg-stone-50' : 'bg-white'}`}>
                 <div className="p-4 font-medium text-stone-700 text-center border-r border-stone-100">{row.label}</div>
@@ -397,9 +402,9 @@ export default function Home() {
               <p className="text-xs text-stone-500 mt-1 font-mono">010-7939-3123</p>
             </div>
             <div className="text-right">
-              <p className="text-sm font-bold text-stone-900">제출 기한</p>
+              <p className="text-sm font-bold text-stone-900">제출일</p>
               <p className="text-lg font-black bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent">
-                2025.11.30 (토) 18:00
+                2025.11.30
               </p>
             </div>
           </div>
